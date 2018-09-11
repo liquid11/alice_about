@@ -472,6 +472,8 @@ margin-right: 150px; */
     line-height: 1.25;
     letter-spacing: -0.1px;
     color: #002836;
+    display: block;
+    padding-top: 18px;
 }
 
 .value .value-col-list .value-col-list-item {
@@ -530,7 +532,6 @@ margin-right: 150px; */
 }
 
 .empower .empower-wrapper .empower-col {
-
     padding-top: 22px;
 }
 
@@ -556,6 +557,8 @@ margin-right: 150px; */
     line-height: normal;
     letter-spacing: 2.4px;
     color: #002836;
+    padding-top: 65px;
+    display: block;
 }
 
 .empower-col-list {
@@ -620,13 +623,176 @@ margin-right: 150px; */
     margin-left: 17px;
 }
 
+.award {
+    background-color: #002836;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.award-wrapper {
+    max-width: 1075px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.award .award-col-item {
+    float: left;
+    max-width: 141px;
+    max-width: 271px;
+}
+
+.award .award-col-item .forbes-img {
+    width: 260px;
+}
+
+.award .award-col-item .award-title {
+    width: 225px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #fb456f;
+}
+
+.award .award-col-item .award-sub-text {
+    width: 253px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.award .padding-left {
+    padding-left: 27px;
+    padding-top: 44px;
+}
+
+.award .padding-top {
+    padding-top: 64px;
+}
+
+.team {
+    background-color: #ffffff;
+}
+
+.team-wrapper {
+    max-width: 1075px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.team .team-col {
+    padding-top: 22px;
+    max-width: 816px;
+}
+
+.team .team-content {
+    padding-bottom: 66px;
+}
+
+.team .team-content .team-text {
+    width: 1146px;
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #002836;
+}
+
+.team .team-content .team-mission-text {
+    width: 686px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -0.1px;
+    color: #002836;
+    display: block;
+    padding-top: 18px;
+}
+
+.party {
+    padding-bottom: 100px;
+}
+
+.party img {
+    width: 100%;
+}
+
+.newsletter-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.newsletter-left {
+    float: left;
+    width: 49.5%;
+    background-image: url("/home/opendev/Documents/projects/alice_about/assets/Desktop 1440px/CTA---Newsletter@2x.jpg");
+    background-size: 716px 100%;
+    padding-top: 126px;
+    padding-bottom: 120px;
+    padding-left: 105px;
+}
+
+.newsletter-right {
+    margin-left: 1px;
+    float: right;
+    width: 49.5%;
+    background-image: url("/home/opendev/Documents/projects/alice_about/assets/Desktop 1440px/CTA---Careears@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: 780px;
+    padding-top: 126px;
+    padding-bottom: 130px;
+    padding-left: 105px;
+}
+
+.newsletter .title {
+    width: 450.7px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-bottom: 70px;
+}
+
+.newsletter .schedule-demo {
+    padding-top: 74px;
+    text-decoration: none;
+    width: 247px;
+    text-align: center;
+    display: block;
+    background-color: #f7295c;
+    border: solid 2px #f7295c;
+    color: #ffffff;
+    padding: 10px;
+}
+
 .footer-wrapper {
     margin: 0 auto;
-    max-width: 607px;
+    max-width: 1440px;
+    max-width: 1440px;
 }
 
 .footer-area {
     overflow: hidden;
+    float: left
 }
 
 .footer-area ul {
@@ -655,6 +821,8 @@ margin-right: 150px; */
 
 .footer .app-social {
     margin-top: 13px;
+    float: left;
+    padding-left: 147px;
 }
 
 .footer .app-social-wrapper {
@@ -693,105 +861,4 @@ margin-right: 150px; */
 .footer .app-social .social-img {
     padding-left: 7px;
     display: inline-block;
-}
-
-/* 
-.footer .google-logo{
-
-    float: ;
-} */
-
-@media only screen and (max-width: 375px) {
-    .container {
-        padding-left: 0px;
-    }
-    .top-menu {
-        display: none;
-    }
-    .right-menu {
-        display: none;
-    }
-    .bottom-menu .left {
-        float: none;
-    }
-    .help-text {
-        font-size: 30px;
-    }
-    .help-text-sub {
-        font-size: 16px;
-    }
-    .bottom-menu {
-        padding-top: 12px;
-        padding-left: 14px;
-    }
-    .rectangle {
-        margin-left: 12px;
-        margin-top: 35px;
-    }
-    .content {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-    .form {
-        padding-left: 12px;
-        width: 100%;
-        padding-right: 12px;
-    }
-    .form .form-wrapper {
-        margin: 0 auto;
-        max-width: 335px;
-    }
-    .banner {
-        padding-bottom: 12px;
-        padding-left: 12px;
-    }
-    .banner .content {
-        padding: 8px;
-        padding-bottom: 10px;
-    }
-    .banner .content:last-child {
-        padding-bottom: 30px;
-    }
-    .banner .banner-wrapper {
-        margin: 0 auto;
-        max-width: 375px;
-    }
-    .products-wrapper {
-        max-width: 375px;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-    .container {
-        /* padding: 15px; */
-        padding-left: 0px;
-    }
-    .footer-wrapper {
-        max-width: 375px;
-    }
-    .footer-area {
-        padding-top: 12px;
-    }
-    .footer-area ul {
-        text-align: center;
-    }
-    .footer-area li {
-        float: none;
-        padding-bottom: 10px;
-    }
-    .footer .app-social-wrapper {
-        max-width: 116px;
-    }
-    .footer .app-social .google-logo {
-        padding-top: 10px
-    }
-    .footer .app-social .join-us {
-        /* padding-top: 10px; */
-        display: block;
-        margin-top: 10px;
-        padding-left: 0px;
-        text-align: center;
-    }
-    .footer .app-social .social-img {
-        padding-top: 11px;
-    }
 }
