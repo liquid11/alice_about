@@ -302,7 +302,7 @@ margin-right: 150px; */
 }
 
 .header .header-wrapper .top-menu .left {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: normal;
     font-style: normal;
@@ -318,7 +318,7 @@ margin-right: 150px; */
     float: right;
     text-decoration: none;
     color: #7ddfdf;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     font-weight: 500;
     font-style: normal;
@@ -337,7 +337,7 @@ margin-right: 150px; */
 
 .hero-col-text {
     width: 627px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 54px;
     font-weight: 300;
     font-style: normal;
@@ -370,7 +370,7 @@ margin-right: 150px; */
 .product-company-faq a {
     /* width: 386px;
     height: 16px; */
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -419,7 +419,7 @@ margin-right: 150px; */
 
 .hero-text {
     width: 652px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 54px;
     font-weight: 300;
     font-style: normal;
@@ -452,7 +452,7 @@ margin-right: 150px; */
 
 .value .value-content .value-text {
     width: 1146px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 42px;
     font-weight: 300;
     font-style: normal;
@@ -464,7 +464,7 @@ margin-right: 150px; */
 
 .value .value-content .value-mission-text {
     width: 590px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
@@ -491,7 +491,7 @@ margin-right: 150px; */
 
 .value .value-col-list .value-col-list-item h4 {
     width: 85px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     padding-top: 44px;
     font-size: 24px;
     font-weight: bold;
@@ -505,7 +505,7 @@ margin-right: 150px; */
 .value .value-col-list .value-col-list-item p {
     padding-top: 16px;
     width: 266px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
@@ -537,7 +537,7 @@ margin-right: 150px; */
 
 .empower .empower-wrapper .empower-content .empower-text {
     width: 882px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 42px;
     font-weight: 300;
     font-style: normal;
@@ -549,7 +549,7 @@ margin-right: 150px; */
 
 .empower .empower-wrapper .empower-content .empower-sub-text {
     width: 320px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: bold;
     font-style: normal;
@@ -567,6 +567,12 @@ margin-right: 150px; */
     padding-bottom: 166px;
 }
 
+.empower-col-list-wrapper {
+    margin: 0 auto;
+    max-width: 1057px;
+    /* overflow: hidden; */
+}
+
 .empower-col-list .empower-col-list-item {
     padding-top: 89px;
     float: left;
@@ -580,7 +586,7 @@ margin-right: 150px; */
     text-align: center;
     width: 223px;
     padding-top: 20px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 77px;
     font-weight: 300;
     font-style: normal;
@@ -594,7 +600,7 @@ margin-right: 150px; */
     text-align: center;
     width: 249px;
     padding-top: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: bold;
     font-style: normal;
@@ -607,7 +613,7 @@ margin-right: 150px; */
 .empower-col-list .empower-col-list-item .phrase {
     padding-top: 10px;
     width: 240px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
@@ -647,7 +653,7 @@ margin-right: 150px; */
 
 .award .award-col-item .award-title {
     width: 225px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -659,7 +665,7 @@ margin-right: 150px; */
 
 .award .award-col-item .award-sub-text {
     width: 253px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
     font-style: normal;
@@ -699,7 +705,7 @@ margin-right: 150px; */
 
 .team .team-content .team-text {
     width: 1146px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 42px;
     font-weight: 300;
     font-style: normal;
@@ -711,7 +717,7 @@ margin-right: 150px; */
 
 .team .team-content .team-mission-text {
     width: 686px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
@@ -761,7 +767,7 @@ margin-right: 150px; */
 
 .newsletter .title {
     width: 450.7px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -792,7 +798,8 @@ margin-right: 150px; */
 
 .footer-area {
     overflow: hidden;
-    float: left
+    float: left;
+    padding-bottom: 47px;
 }
 
 .footer-area ul {
@@ -806,7 +813,7 @@ margin-right: 150px; */
 .footer .footer-area a {
     /* width: 91.2px;
     height: 16px; */
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -848,7 +855,7 @@ margin-right: 150px; */
     /* width: 91.2px;
     height: 16px; */
     padding-left: 35px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -861,4 +868,254 @@ margin-right: 150px; */
 .footer .app-social .social-img {
     padding-left: 7px;
     display: inline-block;
+}
+
+@media screen and (max-width: 960px) {
+    .header .header-wrapper {
+        max-width: 875px;
+    }
+    .value .value-wrapper {
+        max-width: 875px;
+    }
+    .value .value-col-list .value-col-list-item p {
+        padding-top: 16px;
+        width: 195px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #105372;
+        text-align: left;
+    }
+    .empower .empower-wrapper {
+        max-width: 875px;
+    }
+    .empower .empower-col-list-wrapper {
+        margin: 0 auto;
+        max-width: 507px;
+        /* overflow: hidden; */
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header .header-wrapper {
+        max-width: 345px;
+        overflow: hidden;
+        padding-top: 22px;
+    }
+    .header .header-wrapper .top-menu {
+        display: none;
+    }
+    .header .bottom-menu .right-menu {
+        display: none;
+    }
+    .header .hero .hero-col-text {
+        width: 324px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #ffffff;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .value .value-content .value-mission-text {
+        width: 330px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #002836;
+    }
+    .value .value-wrapper {
+        max-width: 338px;
+    }
+    .display-none {
+        display: none !important;
+    }
+    .value .value-content .value-text {
+        width: 314px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.46;
+        letter-spacing: normal;
+        color: #002836;
+    }
+    .value .value-content .value-mission-text {
+        width: 314px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.46;
+        letter-spacing: normal;
+        color: #002836;
+    }
+    .value .value-col-list {
+        margin: 0 auto;
+        max-width: 200px;
+    }
+    .empower .empower-wrapper {
+        max-width: 345px;
+    }
+    .empower .empower-wrapper {
+        max-width: 345px;
+    }
+    .empower .empower-wrapper .empower-content .empower-text {
+        width: 314px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.46;
+        letter-spacing: normal;
+        color: #002836;
+    }
+    .empower .empower-col-list-wrapper {
+        margin: 0 auto;
+        max-width: 248px;
+        /* overflow: hidden; */
+    }
+    .empower-col-list .empower-col-list-item .number {
+        width: 246px;
+        font-size: 60px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 2px;
+        color: #f7295c;
+    }
+    .empower-col-list .empower-col-list-item .role {
+        font-size: 20px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .empower-col-list .empower-col-list-item .phrase {
+        font-size: 17px;
+    }
+    .award-wrapper {
+        max-width: 270px;
+    }
+    .award .padding-left {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .award .award-sub-text:before {
+        content: ">";
+    }
+    .team .team-content .team-text {
+        width: 314px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.46;
+        letter-spacing: normal;
+        color: #002836;
+    }
+    .team .team-wrapper {
+        max-width: 338px;
+    }
+    .team .team-content .team-mission-text {
+        width: 314px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.46;
+        letter-spacing: normal;
+        color: #002836;
+    }
+    .newsletter .newsletter-wrapper {
+        max-width: 375px;
+    }
+    .newsletter .newsletter-left {
+        float: none;
+        width: 100%;
+        background-size: 375px 100%;
+        padding-top: 0px;
+        padding-bottom: 25px;
+        padding-left: 0px;
+        margin-bottom: 7px;
+    }
+    .newsletter .newsletter-right {
+        float: none;
+        width: 100%;
+        background-size: 375px 100%;
+        padding-top: 0px;
+        padding-bottom: 25px;
+        padding-left: 0px;
+    }
+    .newsletter .title {
+        font-size: 15px;
+        padding-bottom: 53px;
+        padding-top: 53px;
+        text-align: center;
+        width: 369px;
+    }
+    .newsletter .schedule-demo {
+        margin: 0 auto;
+        text-decoration: none;
+        width: 247px;
+        text-align: center;
+        padding: 10px;
+    }
+    .footer {
+        margin-top: 0px;
+        background-color: #e8e8e8;
+    }
+    .footer-wrapper {
+        max-width: 375px;
+        overflow: hidden;
+    }
+    .footer-area {
+        float: none;
+        padding-bottom: 47px;
+        text-align: center;
+    }
+    .footer-area li {
+        float: none;
+    }
+    .footer .app-social-wrapper {
+        max-width: 238px;
+        overflow: hidden;
+    }
+    .footer .app-social {
+        margin-top: 0px;
+        float: none;
+        padding-left: 0px;
+    }
+    .footer .app-social .apple-logo {
+        /* display: inline-block; */
+        float: none;
+        width: 113px;
+    }
+    footer .app-social .google-logo {
+        /* display: inline-block; */
+        width: 0px;
+        padding-left: 0px;
+    }
+    .footer .app-social .join-us {
+        
+        padding-top: 20px;
+    }
+    .footer .app-social .social-img {
+        padding-top: 20px;
+    }
 }
