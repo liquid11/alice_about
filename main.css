@@ -898,6 +898,52 @@ margin-right: 150px; */
         max-width: 507px;
         /* overflow: hidden; */
     }
+    .empower .empower-wrapper .empower-content .empower-text {
+        width: 887px;
+        font-size: 42px;
+        font-weight: 300;
+    }
+    .award .award-wrapper {
+        max-width: 875px;
+    }
+    .award .award-wrapper .award-col {
+        overflow: hidden;
+    }
+    .award .padding-left {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .award .award-col-item {
+        float: left;
+        max-width: none;
+        padding-top: 12px;
+        padding-left: 12px;
+    }
+    .team-wrapper {
+        max-width: 875px;
+    }
+    .team .team-content .team-text {
+        width: 575px;
+        font-size: 42px;
+        font-weight: 300;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #002836;
+    }
+    .team .team-content .team-mission-text {
+        width: 650px;
+        font-size: 24px;
+        line-height: 1.33;
+        letter-spacing: 0.7px;
+        color: #002836;
+    }
+    .footer-wrapper {
+        max-width: 636px;
+        overflow: hidden;
+    }
+    .display-none {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -1112,7 +1158,6 @@ margin-right: 150px; */
         padding-left: 0px;
     }
     .footer .app-social .join-us {
-        
         padding-top: 20px;
     }
     .footer .app-social .social-img {
