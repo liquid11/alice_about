@@ -356,18 +356,22 @@ margin-right: 150px; */
     float: left;
 }
 
-.bottom-menu .left img {
-    width: 53px;
+.banner-img {
+    width: 69px;
 }
 
 .bottom-menu .right-menu {
     float: right;
-    margin-top: 20px;
+    margin-top: 36px;
     max-width: 600px;
-    margin-left: 12px;
+    /* margin-left: 12px; */
 }
 
-.product-company-faq a {
+.product-company-faq li {
+    float: left;
+}
+
+.product-company-faq .link {
     /* width: 386px;
     height: 16px; */
     font-family: 'Roboto', sans-serif;
@@ -384,12 +388,14 @@ margin-right: 150px; */
     padding: 10px;
 }
 
-.schedule-demo {
+.product-company-faq .schedule-demo {
     text-decoration: none;
     width: 184px;
     height: 44px;
     border: solid 2px #f7295c;
-    color: black;
+    color: #ffffff;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
 }
 
 .rectangle {
@@ -601,7 +607,7 @@ margin-right: 150px; */
     width: 249px;
     padding-top: 10px;
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 23px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -870,7 +876,7 @@ margin-right: 150px; */
     display: inline-block;
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 959px) and (min-width: 768px) {
     .header .header-wrapper {
         max-width: 875px;
     }
@@ -908,7 +914,7 @@ margin-right: 150px; */
     }
     .empower .empower-col-list-wrapper {
         margin: 0 auto;
-        max-width: 600px;
+        max-width: 685px;
         /* overflow: hidden; */
     }
     .empower .rectangle {
@@ -919,12 +925,17 @@ margin-right: 150px; */
     }
     .empower-col-list .empower-col-list-item .number {
         width: initial;
+        text-align: left;
+        padding-left: 10px;
     }
     .empower-col-list .empower-col-list-item .role {
         width: 280px;
+        text-align: left;
+        padding-left: 10px;
     }
     .empower-col-list .empower-col-list-item .phrase {
         width: 280px;
+        padding-right: 10px;
     }
     .empower .empower-wrapper .empower-content .empower-text {
         width: 887px;
@@ -937,15 +948,17 @@ margin-right: 150px; */
     .award .award-wrapper .award-col {
         overflow: hidden;
     }
-    .award .padding-left {
-        padding-left: 0px;
-        padding-top: 0px;
-    }
     .award .award-col-item {
         float: left;
         max-width: none;
-        padding-top: 12px;
-        padding-left: 12px;
+        padding-top: unset;
+        padding-left: 35px;
+    }
+    .award .padding-top-960 {
+        padding-top: 13px;
+    }
+    .award .award-col-item .forbes-img {
+        width: 219px;
     }
     .team-wrapper {
         max-width: 875px;
@@ -965,7 +978,6 @@ margin-right: 150px; */
     .award .award-sub-text:before {
         content: "> ";
     }
-
     .team .team-content .team-mission-text {
         width: 652px;
         font-size: 24px;
@@ -974,6 +986,9 @@ margin-right: 150px; */
         color: #002836;
         font-weight: 300;
         padding-top: 25px;
+    }
+    .footer {
+        padding-bottom: 13px;
     }
     .footer-wrapper {
         max-width: 636px;
@@ -1082,6 +1097,7 @@ margin-right: 150px; */
         padding-right: 19px;
         background: beige;
         background-color: #ffffff;
+        text-align: center;
     }
     #box-with-shadow {
         box-shadow: 0 1px 5px 0 rgba(153, 153, 153, 0.88);
@@ -1158,15 +1174,23 @@ margin-right: 150px; */
         max-width: initial;
         padding-left: 40px;
     }
-    .award .padding-left {
-        padding-left: 0px;
-        padding-top: 0px;
-    }
     .award .award-col {
         padding-bottom: 57px;
     }
+    .award .award-col-item {
+        padding-left: 1px;
+        max-width: 293px;
+        float: none;
+    }
+    .award .award-col-item .award-title {
+        padding-bottom: 3px;
+    }
+    .award .padding-top {
+        padding-top: unset;
+    }
     .award .award-col-item:first-child {
         padding-top: 30px;
+        padding-left: 35px;
     }
     .award .award-sub-text:before {
         content: "> ";
